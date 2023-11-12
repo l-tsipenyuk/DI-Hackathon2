@@ -17,7 +17,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    float: right;
     z-index: +2;
 }
 
@@ -72,7 +71,7 @@ li img {
     z-index: +1;
 }
 
-#img-back img, #girl {
+#img-back img {
     width: 25vw;
     max-width: 300px;
 }
@@ -122,6 +121,7 @@ h1 {
     margin: auto;
     width: 35vw;
     margin-bottom: 5px;
+    margin-top: 10px;
     max-width: 400px;
     border: 0px;
     border-radius: 5px;
@@ -192,6 +192,11 @@ input {
     z-index: +1;
 }
 
+#girl {
+    width: 20vw;
+    max-width: 300px;
+}
+
 #dots {
     right: 0px;
     width: 20vw;
@@ -218,6 +223,21 @@ input {
     margin-bottom: 10px;
 }
 
-/* #withBtn button {
-    
-} */
+#withBtn {
+    width: 40vw;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.AnswerBtn {
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #6D6E5D;
+    background-color: white;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+    padding: 5px 8px;
+    font-size: 10px;
+}
