@@ -48,3 +48,14 @@ function categorizeUser(answers) {
 // const userAnswers = ["I'm a night owl.", "Yes, I adore them.", "I prefer to write a post on how to cook rather than to actually cook.", "I believe in charity power but now feel that I could contribute more with other deeds.", "I'm obsessed with social media.", "Yes. As an active social media user I feel the responsibility of my own impact.", "I believe I'd be more useful doing more high-qualified work.", "I just spend all of the time in the office.", "check out a website with donation links.", "learning a new skill."];
 
 // the answer will be online
+
+
+// Counting Tags (for linksDB.JS)
+// const tagCounts = {};
+
+// links.forEach(link => {
+//     const tag = link.tag;
+//     tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+// });
+
+// console.log("Tag counts:", tagCounts);
