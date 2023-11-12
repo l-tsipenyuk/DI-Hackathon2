@@ -82,8 +82,13 @@ async function fetchData() {
                         question.innerHTML = "";
 
                         if (links.length > 0) {
+                            const img = document.createElement("img")
+                            img.setAttribute('src', './images/result.png')
+                            img.id = 'cup'
+                            resultContainer.append(img)
 
                             const categoryDiv = document.createElement("div");
+                            categoryDiv.id = 'category'
 
                             const tagObjects = [
                                 { "cook": "Chef or pack supplier" },
@@ -103,14 +108,14 @@ async function fetchData() {
 
                             links.forEach(link => {
                                 const linkDiv = document.createElement("div");
-
-                                const description = document.createElement("p");
-                                description.textContent = `Description: ${link.description}`;
-                                linkDiv.appendChild(description);
+                                linkDiv.classList.add('linkDiv')
+                                // const description = document.createElement("p");
+                                // description.textContent = `${link.description}`;
+                                // linkDiv.appendChild(description);
 
                                 const linkElement = document.createElement("a");
                                 linkElement.href = link.link;
-                                linkElement.textContent = "Link";
+                                linkElement.textContent = `${link.description}`;
                                 linkDiv.appendChild(linkElement);
 
                                 const contact = document.createElement("p");
@@ -119,6 +124,15 @@ async function fetchData() {
 
                                 resultContainer.appendChild(linkDiv);
                             });
+
+                            const aToSearch = document.createElement('a')
+                            aToSearch.href = 'search.html'
+                            const BtnSearch = document.createElement('button')
+                            BtnSearch.id = 'to-search'
+                            BtnSearch.textContent = 'VIEW ALL OPPORTUNITIES'
+                            aToSearch.append(BtnSearch)
+                            resultContainer.appendChild(aToSearch)
+                            
                         }
 
                     } catch (err) {
