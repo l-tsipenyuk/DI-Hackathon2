@@ -199,6 +199,9 @@ links = [
     },
 ];
 
+module.exports = {
+    links
+}
 
 
 
