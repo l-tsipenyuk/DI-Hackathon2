@@ -109,21 +109,21 @@ links = [
         "tag": "dogs",
         "description": "Dog Sitters",
         "link": "https://www.coing.co/Israhelp_Pets_EN/113911",
-        "contact": ""
+        "contact": "-"
     },
     {
         "id": "18",
         "tag": "other",
         "description": "Print and hang posters of kidnapped people.",
         "link": "https://www.coing.co/Israhelp_Media_EN/116834",
-        "contact": ""
+        "contact": "-"
     }, 
     {
         "id": "19",
         "tag": "other",
         "description": "Print and hang posters of kidnapped people.",
         "link": "https://www.coing.co/Israhelp_Media_EN/116834",
-        "contact": ""
+        "contact": "-"
     },
     {
         "id": "20",
@@ -137,7 +137,7 @@ links = [
         "tag": "online",
         "description": "Providing Israeli Explanations and Education through Media and Social Networks",
         "link": "https://www.coing.co/Israhelp_Media_EN/115170",
-        "contact": ""
+        "contact": "-"
     },
     {
         "id": "22",
@@ -170,19 +170,19 @@ links = [
         "tag": "skills",
         "description": "Conversations with Elderly Residents of the South.",
         "link": "https://www.coing.co/Israhelp_Elderly_EN/114981",
-        "contact": ""
+        "contact": "-"
     }, {
         "id": "27",
         "tag": "skills",
         "description": "Calls or meetings to alleviate loneliness.",
         "link": "https://www.coing.co/Israhelp_Elderly_EN/114237",
-        "contact": ""
+        "contact": "-"
     }, {
         "id": "28",
         "tag": "skills",
         "description": "Help for lonely elderly people in Jerusalem.",
         "link": "https://www.coing.co/Israhelp_Elderly_EN/115207",
-        "contact": ""
+        "contact": "-"
     },
     {
         "id": "29",
