@@ -1,0 +1,223 @@
+body {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FFBF40;
+    position: relative;
+    font-family: 'Roboto';
+
+}
+
+
+nav {
+    width: 100vw;
+    height: 30px;
+    background-color: #6D6E5D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    float: right;
+    z-index: +2;
+}
+
+#logo {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    width: 20%;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    font-size: 8px;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 500px;
+    margin-right: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+li {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+li img {
+    margin-right: 10px;
+    width: 15px;
+}
+
+#container {
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    padding-top: 30px;
+}
+
+#img-back {
+    position: absolute;
+    top: 28vh;
+    right: 0px;
+    display: block;
+    z-index: +1;
+}
+
+#img-back img, #girl {
+    width: 25vw;
+    max-width: 300px;
+}
+
+#img-stars {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    padding-top: 30px;
+}
+
+#img-stars img {
+    width: 12vw;
+    max-width: 150px;
+}
+
+#h1-img img {
+    width: 15%;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #0138B7;
+    font-size: 12px;
+}
+
+#underlined-text {
+    width: 40vw;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+#underlined-text p {
+    margin: 0px;
+    font-size: 8px;
+}
+
+#underline {
+    max-width: 40%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    right: 130px;
+}
+
+#to-quiz, #to-search {
+    display: block;
+    margin: auto;
+    width: 35vw;
+    margin-bottom: 5px;
+    max-width: 400px;
+    border: 0px;
+    border-radius: 5px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+}
+
+#to-quiz {
+    background-color: #FFBF40;
+    color: #6D6E5D;
+}
+
+#to-search {
+    background-color:#6D6E5D;
+    color: #FFBF40;
+}
+
+a {
+    text-decoration: none;
+}
+
+#news {
+    width: 40vw;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    color: #6D6E5D;
+    font-size: 8px;
+}
+
+form {
+    width: 40vw;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, #newsBtn {
+    height: 20px;
+    border-radius: 5px;
+    border: 0px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 8px;
+
+}
+
+input {
+    border: 1px solid #6D6E5D;
+    width: 60%;
+    padding: 0px 10px;
+}
+
+#newsBtn {
+    width: 35%;
+    background-color: #0138B7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#girl, #dots, #sheep {
+    position: absolute;
+    z-index: +1;
+}
+
+#dots {
+    right: 0px;
+    width: 20vw;
+    max-width: 200px;
+}
+
+#sheep {
+    right: 0px;
+    width: 15vw;
+    max-width: 200px;
+    bottom: 30px;
+}
+
+#quiz {
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+#question {
+    font-size: 10px;
+    width: 40vw;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* #withBtn button {
+    
+} */
