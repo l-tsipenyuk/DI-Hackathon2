@@ -140,6 +140,14 @@ h1 {
     color: #FFBF40;
 }
 
+#to-quiz:hover {
+    cursor: pointer;
+}
+
+#to-search:hover {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
