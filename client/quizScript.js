@@ -109,9 +109,6 @@ async function fetchData() {
                             links.forEach(link => {
                                 const linkDiv = document.createElement("div");
                                 linkDiv.classList.add('linkDiv')
-                                // const description = document.createElement("p");
-                                // description.textContent = `${link.description}`;
-                                // linkDiv.appendChild(description);
 
                                 const linkElement = document.createElement("a");
                                 linkElement.href = link.link;
