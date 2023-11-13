@@ -49,6 +49,7 @@ const getCards = (arr) => {
 
         let a = document.createElement('a')
         a.href = item.link
+        a.setAttribute('target', '_blank')
         a.textContent = item.description
         divCard.appendChild(a)
 
