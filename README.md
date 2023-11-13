@@ -3,24 +3,11 @@
 **Project Title:** Volunteer Matcher
 
 **Project Description:**
-In Volunteer Matcher we help users to discover volunteer opportunities based on their preferences. 
+Volunteer Matcher allows users to discover volunteer opportunities based on their preferences. Additionally, users can subscribe to newsletter and explore all the volunteering options.
 
-**Getting Started**
-Guest Mode
-If you're just here to explore without commitment, choose the guest mode. Take the test, discover your ideal volunteer match, and explore opportunities without registering.
+**Getting Started:**
+Users are invited to begin their journey by taking a quiz to uncover their perfect volunteer match. Additionally, a direct donation link for Israel or exploring mode are available in the navigation bar.
 
-Registration Mode
-For making a subscription, opt for registration. Fill in your details at the beginning, and after completing the test, your email will be securely stored in our SQL database.
-
-**The Quiz**
-Based on user's responses, we'll recommend a volunteer role tailored to their preferences. 
-
-**Additional Resources**
-Explore our curated collection of thematic volunteerism resources on the final page. These links can guide you to further opportunities and information related to volunteering.
-
-**How it works**
-1. Choose your mode: guest or registration.
-2. Take the test and answer the questions honestly.
-3. Discover your ideal volunteer match and explore suggested opportunities.
-4. Check out additional resources for more volunteering options.
+**The Quiz:**
+The quiz comprises 10 questions, each offering 2-4 options. Using the user's responses, the results reveal the type of volunteer activity that aligns most with their preferences. The test result includes a range of links and activities associated with this specific volunteering type.
 
