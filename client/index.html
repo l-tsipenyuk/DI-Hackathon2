@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Matcher - Help Israel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Navbar-->
     <nav>
         <div id="logo"><a href="index.html">Volunteer Matcher</a></div>
         <ul>
-            <li class="nav-links"><img src="./images/search.png"/><a href="search.html">Search all</a></li>
-            <li class="nav-links"><img src="./images/contact.png"/><a>Contact us</a></li>
-            <li class="nav-links"><img src="./images/donate.png"/><a href="https://helpisrael.notion.site/23d5838583bc43ff9aceee79e65410b5?v=d2870ec3981e4276be938cc6c58991de" target="_blank">Donate For Israel</a></li>
+            <li class="nav-links"><img src="./images/search.png" /><a href="search.html">Search all</a></li>
+            <li class="nav-links"><img src="./images/contact.png" /><a>Contact us</a></li>
+            <li class="nav-links"><img src="./images/donate.png" /><a
+                    href="https://helpisrael.notion.site/23d5838583bc43ff9aceee79e65410b5?v=d2870ec3981e4276be938cc6c58991de"
+                    target="_blank">Donate For Israel</a></li>
         </ul>
     </nav>
-    <div id="img-back"><img src="./images/guy-with-cat.png"/></div>
+    <div id="img-back"><img src="./images/guy-with-cat.png" /></div>
 
     <!-- Main container-->
     <section id="container">
-        <div id="img-stars"><img src="./images/stars.png"/></div>
-        <div id="h1-img"><img src="./images/h1.png"/></div>
+        <div id="img-stars"><img src="./images/stars.png" /></div>
+        <div id="h1-img"><img src="./images/h1.png" /></div>
         <h1>To Volunteer Matcher</h1>
-        <div id="underlined-text"><p>We help you find volunteer opportunities based on your preferences</p>
-        <img src="./images/h1-underline.png" id="underline"/></div>
+        <div id="underlined-text">
+            <p>We help you find volunteer opportunities based on your preferences</p>
+            <img src="./images/h1-underline.png" id="underline" />
+        </div>
         <!--Buttons -->
         <a href="quiz.html"><button id="to-quiz">TAKE A QUIZ TO FIND THE BEST PLACES FOR YOU</button></a>
         <a href="search.html"><button id="to-search">VIEW ALL OPPORTUNITIES</button></a>
         <!-- Subscribtion form-->
         <p id="news">Sign up for our newsletter and be the first to know about new volunteer opportunities!</p>
         <form>
-        <input type="email" placeholder="Your Email"/>
-        <button id="newsBtn">Subscribe me!</button>
+            <input type="email" placeholder="Your Email" id = "emailInput">
+            <button id="newsBtn">Subscribe me!</button>
         </form>
     </section>
+    <script src="indexScript.js"></script>
 </body>
+
 </html>
