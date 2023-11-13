@@ -19,6 +19,7 @@ newsBtn.addEventListener("click", async (event) => {
         if (regResponse.ok) {
             console.log("User subscribed.", regResponse);
             newsBtn.textContent = "Now you subscribed.";
+            newsBtn.style.width = '100%'
             emailInput.type = "hidden";
         } else {
             console.error("User registration failed.");
