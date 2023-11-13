@@ -150,10 +150,6 @@ h1 {
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:visited {
     color: #FFBF40;
 }
@@ -317,7 +313,7 @@ form input {
 
 .card {
     width: 20%;
-    height: 200px;
+    height: auto;
     background-color: white;
     margin-bottom: 20px;
     border: 1px solid #6D6E5D;
@@ -338,6 +334,7 @@ form input {
     margin-bottom: 10px;
     height: 50%;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .divImg img {
