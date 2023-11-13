@@ -200,6 +200,10 @@ form input {
     font-weight: 500;
 }
 
+#newsBtn:hover {
+    cursor: pointer;
+}
+
 #girl, #dots, #sheep, #phone, #dots-search, #arrow {
     position: absolute;
     z-index: +1;
